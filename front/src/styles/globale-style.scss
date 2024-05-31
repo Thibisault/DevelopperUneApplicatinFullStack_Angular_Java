@@ -1,0 +1,97 @@
+/* path: src/styles/globale-style.scss */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+body {
+    background-color: #121212;
+    font-family: Roboto, sans-serif;
+    color: #e0e0e0; 
+  }
+  
+  .container {
+    background: #1e1e1e; 
+    padding: 2rem;
+    box-shadow: 0 0.125rem 0.625rem rgba(0, 0, 0, 0.6);
+    border-radius: 0.5rem;
+    max-width: 90%;
+    margin: 2rem auto;
+    width: 100%;
+  }
+  
+  h1, h2, h3 {
+    font-size: 2rem;
+    color: #ffffff;
+    margin-bottom: 1rem;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+  }
+  
+  h3 {
+    font-size: 1.2rem;
+  }
+  
+  p {
+    color: #bbbbbb;
+    line-height: 1.6;
+  }
+  
+  strong {
+    color: #ffffff;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 1rem;
+  }
+  
+  li a.article-link, li a.theme-link {
+    display: block;
+    background: #2e2e2e; /* Link background color */
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+    border-radius: 0.25rem;
+    text-decoration: none;
+    color: #ffffff; /* Link text color */
+    box-shadow: 0 0.125rem 0.625rem rgba(0, 0, 0, 0.6);
+    transition: background-color 0.3s, box-shadow 0.3s;
+  }
+  
+  li a.article-link:hover, li a.theme-link:hover {
+    background-color: #3a3a3a;
+    box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.8);
+  }
+  
+  button {
+    background-color: #3f51b5;
+    color: #ffffff;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+  
+  button:hover {
+    background-color: #303f9f;
+  }
+  
+  button + button {
+    margin-left: 1rem;
+  }
+  
+  .article-container {
+    margin-top: 2rem;
+  }
+  
+  .article-container h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #ffffff;
+  }
+  

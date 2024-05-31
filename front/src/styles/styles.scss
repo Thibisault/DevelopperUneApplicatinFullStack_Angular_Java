@@ -1,0 +1,10 @@
+/* path: src/styles/styles.scss */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import './auth-style.scss';
+@import './globale-style.scss';
+@import './form-style.scss';
+
+body {
+  margin: 0;
+  font-family: Roboto, sans-serif;
+}

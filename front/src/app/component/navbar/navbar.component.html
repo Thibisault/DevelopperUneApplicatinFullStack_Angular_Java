@@ -1,0 +1,11 @@
+<!-- path: src/app/component/navbar/navbar.component.html -->
+<mat-toolbar color="primary" class="navbar">
+  <button mat-button class="navbar-title" (click)="navigateToHome()">
+    <img src="/assets/logo_p6.png" alt="logo" class="navbar-logo" />
+  </button>
+  <button mat-button (click)="navigateToTheme()">Themes</button>
+  <button mat-button (click)="navigateToFeed()">Feed</button>
+  <button mat-button (click)="navigateToProfile()">Profile</button>
+  <span class="spacer"></span>
+  <button mat-button color="warn" (click)="logout()">Logout</button>
+</mat-toolbar>

@@ -1,0 +1,15 @@
+<p>theme-list-component works!</p>
+<ul>
+  <li *ngFor="let theme of themes">
+    <a class="theme-link" [routerLink]="['/theme', theme.id]">
+      <div class="theme-content" >
+        <h2>{{ theme.name }}</h2>
+        <p>{{ theme.description }}</p>
+      </div>
+      <div class="theme-actions">
+        <button *ngIf="!isSubscribed(theme.id)" (click)="subscribe(theme.id, $event)">Subscribe</button>
+        <button *ngIf="isSubscribed(theme.id)" (click)="unsubscribe(theme.id, $event)">Unsubscribe</button>
+      </div>
+    </a>
+  </li>
+</ul>

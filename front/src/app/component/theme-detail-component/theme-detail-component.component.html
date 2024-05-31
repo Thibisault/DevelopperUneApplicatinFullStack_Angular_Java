@@ -1,0 +1,20 @@
+<p>theme-detail-component works!</p>
+<div *ngIf="theme" class="container">
+  <h1>{{ theme.name }}</h1>
+  <p>{{ theme.description }}</p>
+  <button routerLink="/article-create" [queryParams]="{ themeId: theme.id }">Create Article</button>
+
+  <div class="article-container" *ngIf="theme && theme.articles.length">
+    <h2>Articles</h2>
+    <ul>
+      <li *ngFor="let article of theme.articles">
+        <a [routerLink]="['/article', article.id]" class="article-link">
+          <h2>{{ article.title }}</h2>
+          <p>{{ article.content }}</p>
+          <p><strong>Author:</strong> {{ article.author }}</p>
+          <p><strong>Published Date:</strong> {{ article.publicationDate | date:'short' }}</p>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>

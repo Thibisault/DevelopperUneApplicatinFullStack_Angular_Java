@@ -1,0 +1,18 @@
+/* path: src/app/app.component.scss */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import 'src/styles/auth-style.scss';
+
+:host {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 1.25rem;
+  margin-top: 4rem; 
+  box-sizing: border-box;
+}

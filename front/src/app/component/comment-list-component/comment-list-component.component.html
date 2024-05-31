@@ -1,0 +1,6 @@
+<p>comment-list-component works!</p>
+<div *ngIf="comment">
+  <p>{{ comment.content }}</p>
+  <p><strong>Author:</strong> {{ comment.author }}</p>
+  <p><strong>Created At:</strong> {{ comment.createdDate | date }}</p>
+</div>

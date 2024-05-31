@@ -1,0 +1,40 @@
+/* path: src/app/component/register/register.component.scss */
+
+.radio-group {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0;
+
+  .mat-radio-group {
+    display: flex;
+    justify-content: space-between;
+
+    .mat-radio-button {
+      display: flex;
+      align-items: center;
+      margin-right: 1rem;
+
+      .mat-radio-outer-circle {
+        border-color: #3f51b5;
+      }
+
+      .mat-radio-inner-circle {
+        background-color: #3f51b5;
+      }
+
+      .mat-radio-label-content {
+        font-size: 1rem;
+        font-weight: 500;
+        color: #3f51b5;
+      }
+
+      &:hover .mat-radio-outer-circle {
+        border-color: #303f9f;
+      }
+
+      &:hover .mat-radio-inner-circle {
+        background-color: #303f9f;
+      }
+    }
+  }
+}

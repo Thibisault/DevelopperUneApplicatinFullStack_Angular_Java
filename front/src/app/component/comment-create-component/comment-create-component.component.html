@@ -1,0 +1,9 @@
+<p>comment-create-component works!</p>
+<div class="form-container">
+  <h2>Create Comment</h2>
+  <form (ngSubmit)="createComment()">
+    <label for="content">Content:</label>
+    <textarea id="content" [(ngModel)]="comment.content" name="content" required></textarea>
+    <button type="submit">Create Comment</button>
+  </form>
+</div>

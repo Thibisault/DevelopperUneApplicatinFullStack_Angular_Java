@@ -1,0 +1,16 @@
+<p>news-feed-component works!</p>
+<div *ngIf="articles && articles.length > 0">
+  <ul>
+    <li *ngFor="let article of articles">
+      <a [routerLink]="['/article', article.id]" class="article-link">
+        <h2>{{ article.title }} <span class="theme-tag">({{ article.themeName }})</span></h2>
+        <p>{{ article.content }}</p>
+        <p><strong>Author:</strong> {{ article.author }}</p>
+        <p><strong>Published Date:</strong> {{ article.publicationDate | date }}</p>
+      </a>
+    </li>
+  </ul>
+</div>
+<div *ngIf="articles.length === 0">
+  <p>No articles found.</p>
+</div>
