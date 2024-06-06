@@ -51,12 +51,12 @@ body {
   
   li a.article-link, li a.theme-link {
     display: block;
-    background: #2e2e2e; /* Link background color */
+    background: #2e2e2e; 
     padding: 1rem;
     margin-bottom: 0.5rem;
     border-radius: 0.25rem;
     text-decoration: none;
-    color: #ffffff; /* Link text color */
+    color: #ffffff;
     box-shadow: 0 0.125rem 0.625rem rgba(0, 0, 0, 0.6);
     transition: background-color 0.3s, box-shadow 0.3s;
   }

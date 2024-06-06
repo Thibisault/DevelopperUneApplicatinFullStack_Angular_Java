@@ -7,8 +7,8 @@
   z-index: 1000;
   display: flex;
   align-items: center;
-  padding: 0 1rem; /* Utiliser des rem pour un espacement horizontal */
-  box-sizing: border-box; /* Inclure le padding dans la largeur totale */
+  padding: 0 1rem; 
+  box-sizing: border-box
 }
 
 .navbar-title {
@@ -17,9 +17,9 @@
 }
 
 .navbar-logo {
-  max-height: 40px; /* Ajustez la taille de l'image selon vos besoins */
+  max-height: 40px; 
   width: auto;
-  object-fit: contain; /* Garder le ratio */
+  object-fit: contain; 
 }
 
 .spacer {
