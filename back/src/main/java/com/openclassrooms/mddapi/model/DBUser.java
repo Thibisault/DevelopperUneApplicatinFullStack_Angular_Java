@@ -23,9 +23,6 @@ public class DBUser {
     @NotBlank(message = "Username cannot be empty")
     private String username;
 
-    // Salut ma petite maison qui est dans la prairie; je suis un commentaire
-    // tu as entendu parler de Natacha ?
-
     @NotBlank(message = "Password cannot be empty")
     private String password;
 

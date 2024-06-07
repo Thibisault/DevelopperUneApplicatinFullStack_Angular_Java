@@ -62,12 +62,10 @@ public class ThemeService {
 
     // s'abonner à un thème
     public void subscribeToTheme(Integer themeId, DBUser dbUser) {
-        // Logique pour abonner l'utilisateur au thème
     }
 
     // se désabonner d'un thème
     public void unsubscribeFromTheme(Integer themeId, String username) {
-        // Logique pour désabonner l'utilisateur du thème
     }
 
     public void addArticleToTheme(Integer themeId, Integer articleId) {
